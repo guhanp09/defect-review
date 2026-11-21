@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-11-21",
+  "inputs": {
+    "faa_2025_facts.csv.gz": "b680b6e0fb23d1fa8540a3a6fef8658ad4d7ac4436597aa1400592961a6f9dde",
+    "jasc_catalog.json": "354d3ab97292178d12280f79d693016bc7f4bd5d7410251125e458997a344c6b",
+    "provenance.json": "53fd8bce54ecff25ddfd60ce7f6dc73f5118a226489e22a3afb0c39d125ec95b",
+    "synthetic_exposure.json": "957ca856dfc2b35f23b4951eae22d440c942ef2b5d7af22755bfeb0e8c2914ef"
+  },
+  "outputs": {
+    "component_drilldown.csv": "d2261113f911727dfe2d5ac3b7cb2764b529f9025fd3599abe7075c921a75741",
+    "index.html": "21969cae0dbedc9b937a0e147a5a15dba2c9acb6909be491715cba98e729186d",
+    "monthly_reports.csv": "2e1f1c06dcd6603d355bd446d39486ac6e2152575b6bcd39ebd8ce50c4c1509f",
+    "quarantine.csv": "456ed2846541d20792ad637dae6ebcb13b27fc98d30405ec9dc9508f70388618",
+    "repeat_candidates.csv": "5b16c967cbba7989d8e77cca420b3b1fbf55e4f6c3c10648a83ce118bd1852bd",
+    "review.json": "efafdf1f852756012dfee61e036685e708720b594b0cff2062dda69391a39278",
+    "synthetic_rates.csv": "91ffda7035cc2ce45a15dc3ff816b6a72936eed26169a26485244899093cfc92",
+    "system_drilldown.csv": "adadd59b9b9bd0a182eb1fe489efc6263e71c0602bf0350d10383e00394280e3"
+  }
+}

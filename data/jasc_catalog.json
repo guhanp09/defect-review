@@ -1,0 +1,2196 @@
+{
+  "source": "https://www.faa.gov/sites/faa.gov/files/JASC_Code.pdf",
+  "source_sha256": "47751cfb1aa0da60c9c04414a849423eeee25f4aa5ae8783cbf7e55b0c300085",
+  "table_date": "2008-10-27",
+  "note": "FAA JASC is a modified ATA taxonomy. ATA values are coarse chapter groupings only, not manufacturer subchapter coding. 3418 (stall warning) and unmapped chapters require review. Original JASC is always retained.",
+  "codes": {
+    "1100": {
+      "title": "PLACARDS AND MARKINGS",
+      "ata_chapter": null
+    },
+    "1210": {
+      "title": "FUEL SERVICING",
+      "ata_chapter": null
+    },
+    "1220": {
+      "title": "OIL SERVICING",
+      "ata_chapter": null
+    },
+    "1230": {
+      "title": "HYDRAULIC FLUID SERVICING",
+      "ata_chapter": null
+    },
+    "1240": {
+      "title": "COOLANT SERVICING",
+      "ata_chapter": null
+    },
+    "1400": {
+      "title": "MISCELLANEOUS HARDWARE",
+      "ata_chapter": null
+    },
+    "1410": {
+      "title": "HOSES AND TUBES",
+      "ata_chapter": null
+    },
+    "1420": {
+      "title": "ELECTRICAL CONNECTORS",
+      "ata_chapter": null
+    },
+    "1430": {
+      "title": "FASTENERS",
+      "ata_chapter": null
+    },
+    "1497": {
+      "title": "MISCELLANEOUS WIRING",
+      "ata_chapter": null
+    },
+    "1800": {
+      "title": "HELICOPTER VIB/NOISE ANALYSIS",
+      "ata_chapter": null
+    },
+    "1810": {
+      "title": "HELICOPTER VIBRATION ANALYSIS",
+      "ata_chapter": null
+    },
+    "1820": {
+      "title": "HELICOPTER NOISE ANALYSIS",
+      "ata_chapter": null
+    },
+    "1897": {
+      "title": "HELICOPTER VIBRATION SYSTEM WIRING",
+      "ata_chapter": null
+    },
+    "2100": {
+      "title": "AIR CONDITIONING SYSTEM",
+      "ata_chapter": "21"
+    },
+    "2110": {
+      "title": "CABIN COMPRESSOR SYSTEM",
+      "ata_chapter": "21"
+    },
+    "2120": {
+      "title": "AIR DISTRIBUTION SYSTEM",
+      "ata_chapter": "21"
+    },
+    "2121": {
+      "title": "AIR DISTRIBUTION FAN",
+      "ata_chapter": "21"
+    },
+    "2130": {
+      "title": "CABIN PRESSURE CONTROL SYSTEM",
+      "ata_chapter": "21"
+    },
+    "2131": {
+      "title": "CABIN PRESSURE CONTROLLER",
+      "ata_chapter": "21"
+    },
+    "2132": {
+      "title": "CABIN PRESSURE INDICATOR",
+      "ata_chapter": "21"
+    },
+    "2133": {
+      "title": "PRESSURE REGUL/OUTFLOW VALVE",
+      "ata_chapter": "21"
+    },
+    "2134": {
+      "title": "CABIN PRESSURE SENSOR",
+      "ata_chapter": "21"
+    },
+    "2140": {
+      "title": "HEATING SYSTEM",
+      "ata_chapter": "21"
+    },
+    "2150": {
+      "title": "CABIN COOLING SYSTEM",
+      "ata_chapter": "21"
+    },
+    "2160": {
+      "title": "CABIN TEMPERATURE CONTROL SYSTEM",
+      "ata_chapter": "21"
+    },
+    "2161": {
+      "title": "CABIN TEMPERATURE CONTROLLER",
+      "ata_chapter": "21"
+    },
+    "2162": {
+      "title": "CABIN TEMPERATURE INDICATOR",
+      "ata_chapter": "21"
+    },
+    "2163": {
+      "title": "CABIN TEMPERATURE SENSOR",
+      "ata_chapter": "21"
+    },
+    "2170": {
+      "title": "HUMIDITY CONTROL SYSTEM",
+      "ata_chapter": "21"
+    },
+    "2197": {
+      "title": "AIR CONDITIONING SYSTEM WIRING",
+      "ata_chapter": "21"
+    },
+    "2200": {
+      "title": "AUTO FLIGHT SYSTEM",
+      "ata_chapter": "22"
+    },
+    "2210": {
+      "title": "AUTOPILOT SYSTEM",
+      "ata_chapter": "22"
+    },
+    "2211": {
+      "title": "AUTOPILOT COMPUTER",
+      "ata_chapter": "22"
+    },
+    "2212": {
+      "title": "ALTITUDE CONTROLLER",
+      "ata_chapter": "22"
+    },
+    "2213": {
+      "title": "FLIGHT CONTROLLER",
+      "ata_chapter": "22"
+    },
+    "2214": {
+      "title": "AUTOPILOT TRIM INDICATOR",
+      "ata_chapter": "22"
+    },
+    "2215": {
+      "title": "AUTOPILOT MAIN SERVO",
+      "ata_chapter": "22"
+    },
+    "2216": {
+      "title": "AUTOPILOT TRIM SERVO",
+      "ata_chapter": "22"
+    },
+    "2220": {
+      "title": "SPEED-ATTITUDE CORRECT. SYSTEM",
+      "ata_chapter": "22"
+    },
+    "2230": {
+      "title": "AUTO THROTTLE SYSTEM",
+      "ata_chapter": "22"
+    },
+    "2250": {
+      "title": "AERODYNAMIC LOAD ALLEVIATING",
+      "ata_chapter": "22"
+    },
+    "2297": {
+      "title": "AUTOFLIGHT SYSTEM WIRING",
+      "ata_chapter": "22"
+    },
+    "2300": {
+      "title": "COMMUNICATIONS SYSTEM",
+      "ata_chapter": "23"
+    },
+    "2310": {
+      "title": "HF COMMUNICATION SYSTEM",
+      "ata_chapter": "23"
+    },
+    "2311": {
+      "title": "UHF COMMUNICATION SYSTEM",
+      "ata_chapter": "23"
+    },
+    "2312": {
+      "title": "VHF COMMUNICATION SYSTEM",
+      "ata_chapter": "23"
+    },
+    "2320": {
+      "title": "DATA TRANSMISSION AUTO CALL",
+      "ata_chapter": "23"
+    },
+    "2330": {
+      "title": "ENTERTAINMENT SYSTEM",
+      "ata_chapter": "23"
+    },
+    "2340": {
+      "title": "INTERPHONE/PASSENGER PA SYSTEM",
+      "ata_chapter": "23"
+    },
+    "2350": {
+      "title": "AUDIO INTEGRATING SYSTEM",
+      "ata_chapter": "23"
+    },
+    "2360": {
+      "title": "STATIC DISCHARGE SYSTEM",
+      "ata_chapter": "23"
+    },
+    "2370": {
+      "title": "AUDIO/VIDEO MONITORING",
+      "ata_chapter": "23"
+    },
+    "2397": {
+      "title": "COMMUNICATION SYSTEM WIRING",
+      "ata_chapter": "23"
+    },
+    "2400": {
+      "title": "ELECTRICAL POWER SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2410": {
+      "title": "ALTERNATOR-GENERATOR DRIVE",
+      "ata_chapter": "24"
+    },
+    "2420": {
+      "title": "AC GENERATION SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2421": {
+      "title": "AC GENERATOR-ALTERNATOR",
+      "ata_chapter": "24"
+    },
+    "2422": {
+      "title": "AC INVERTER",
+      "ata_chapter": "24"
+    },
+    "2423": {
+      "title": "PHASE ADAPTER",
+      "ata_chapter": "24"
+    },
+    "2424": {
+      "title": "AC REGULATOR",
+      "ata_chapter": "24"
+    },
+    "2425": {
+      "title": "AC INDICATING SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2430": {
+      "title": "DC GENERATING SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2431": {
+      "title": "BATTERY OVERHEAT WARN. SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2432": {
+      "title": "BATTERY/CHARGER SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2433": {
+      "title": "DC RECTIFIER/CONVERTER",
+      "ata_chapter": "24"
+    },
+    "2434": {
+      "title": "DC GENERATOR-ALTERNATOR",
+      "ata_chapter": "24"
+    },
+    "2435": {
+      "title": "STARTER-GENERATOR",
+      "ata_chapter": "24"
+    },
+    "2436": {
+      "title": "DC REGULATOR",
+      "ata_chapter": "24"
+    },
+    "2437": {
+      "title": "DC INDICATING SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2440": {
+      "title": "EXTERNAL POWER SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2450": {
+      "title": "AC POWER DISTRIBUTION SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2460": {
+      "title": "DC POWER/DISTRIBUTION SYSTEM",
+      "ata_chapter": "24"
+    },
+    "2497": {
+      "title": "ELECTRICAL POWER SYSTEM WIRING",
+      "ata_chapter": "24"
+    },
+    "2500": {
+      "title": "CABIN EQUIPMENT/FURNISHINGS",
+      "ata_chapter": "25"
+    },
+    "2510": {
+      "title": "FLIGHT COMPARTMENT EQUIPMENT",
+      "ata_chapter": "25"
+    },
+    "2520": {
+      "title": "PASSENGER COMPARTMENT EQUIPMENT",
+      "ata_chapter": "25"
+    },
+    "2530": {
+      "title": "BUFFET/GALLEYS",
+      "ata_chapter": "25"
+    },
+    "2540": {
+      "title": "LAVATORIES",
+      "ata_chapter": "25"
+    },
+    "2550": {
+      "title": "CARGO COMPARTMENTS",
+      "ata_chapter": "25"
+    },
+    "2551": {
+      "title": "AGRICULTURAL SPRAY SYSTEM",
+      "ata_chapter": "25"
+    },
+    "2560": {
+      "title": "EMERGENCY EQUIPMENT",
+      "ata_chapter": "25"
+    },
+    "2561": {
+      "title": "LIFE JACKET",
+      "ata_chapter": "25"
+    },
+    "2562": {
+      "title": "EMERGENCY LOCATOR BEACON",
+      "ata_chapter": "25"
+    },
+    "2563": {
+      "title": "PARACHUTE",
+      "ata_chapter": "25"
+    },
+    "2564": {
+      "title": "LIFE RAFT",
+      "ata_chapter": "25"
+    },
+    "2565": {
+      "title": "ESCAPE SLIDE",
+      "ata_chapter": "25"
+    },
+    "2570": {
+      "title": "ACCESSORY COMPARTMENT",
+      "ata_chapter": "25"
+    },
+    "2571": {
+      "title": "BATTERY BOX STRUCTURE",
+      "ata_chapter": "25"
+    },
+    "2572": {
+      "title": "ELECTRONIC SHELF SECTION",
+      "ata_chapter": "25"
+    },
+    "2597": {
+      "title": "EQUIP/FURNISHING SYSTEM WIRING",
+      "ata_chapter": "25"
+    },
+    "2600": {
+      "title": "FIRE PROTECTION SYSTEM",
+      "ata_chapter": "26"
+    },
+    "2610": {
+      "title": "DETECTION SYSTEM",
+      "ata_chapter": "26"
+    },
+    "2611": {
+      "title": "SMOKE DETECTION",
+      "ata_chapter": "26"
+    },
+    "2612": {
+      "title": "FIRE DETECTION",
+      "ata_chapter": "26"
+    },
+    "2613": {
+      "title": "OVERHEAT DETECTION",
+      "ata_chapter": "26"
+    },
+    "2620": {
+      "title": "EXTINGUISHING SYSTEM",
+      "ata_chapter": "26"
+    },
+    "2621": {
+      "title": "FIRE BOTTLE, FIXED",
+      "ata_chapter": "26"
+    },
+    "2622": {
+      "title": "FIRE BOTTLE, PORTABLE",
+      "ata_chapter": "26"
+    },
+    "2697": {
+      "title": "FIRE PROTECTION SYSTEM WIRING",
+      "ata_chapter": "26"
+    },
+    "2700": {
+      "title": "FLIGHT CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2701": {
+      "title": "CONTROL COLUMN SECTION",
+      "ata_chapter": "27"
+    },
+    "2710": {
+      "title": "AILERON CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2711": {
+      "title": "AILERON TAB CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2720": {
+      "title": "RUDDER CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2721": {
+      "title": "RUDDER TAB CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2722": {
+      "title": "RUDDER ACTUATOR",
+      "ata_chapter": "27"
+    },
+    "2730": {
+      "title": "ELEVATOR CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2731": {
+      "title": "ELEVATOR TAB CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2740": {
+      "title": "STABILIZER CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2741": {
+      "title": "STABILIZER POSITION INDICATING",
+      "ata_chapter": "27"
+    },
+    "2742": {
+      "title": "STABILIZER ACTUATOR",
+      "ata_chapter": "27"
+    },
+    "2750": {
+      "title": "TE FLAP CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2751": {
+      "title": "TE FLAP POSITION IND. SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2752": {
+      "title": "TE FLAP ACTUATOR",
+      "ata_chapter": "27"
+    },
+    "2760": {
+      "title": "DRAG CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2761": {
+      "title": "DRAG CONTROL ACTUATOR",
+      "ata_chapter": "27"
+    },
+    "2770": {
+      "title": "GUST LOCK/DAMPER SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2780": {
+      "title": "LE SLAT CONTROL SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2781": {
+      "title": "LE SLAT POSITION IND. SYSTEM",
+      "ata_chapter": "27"
+    },
+    "2782": {
+      "title": "LE SLAT ACTUATOR",
+      "ata_chapter": "27"
+    },
+    "2797": {
+      "title": "FLIGHT CONTROL SYSTEM WIRING",
+      "ata_chapter": "27"
+    },
+    "2800": {
+      "title": "AIRCRAFT FUEL SYSTEM",
+      "ata_chapter": "28"
+    },
+    "2810": {
+      "title": "FUEL STORAGE",
+      "ata_chapter": "28"
+    },
+    "2820": {
+      "title": "ACFT FUEL DISTRIB. SYSTEM",
+      "ata_chapter": "28"
+    },
+    "2821": {
+      "title": "ACFT FUEL FILTER/STRAINER",
+      "ata_chapter": "28"
+    },
+    "2822": {
+      "title": "FUEL BOOST PUMP",
+      "ata_chapter": "28"
+    },
+    "2823": {
+      "title": "FUEL SELECTOR/SHUT-OFF VALVE",
+      "ata_chapter": "28"
+    },
+    "2824": {
+      "title": "FUEL TRANSFER VALVE",
+      "ata_chapter": "28"
+    },
+    "2830": {
+      "title": "FUEL DUMP SYSTEM",
+      "ata_chapter": "28"
+    },
+    "2840": {
+      "title": "ACFT FUEL INDICATING SYSTEM",
+      "ata_chapter": "28"
+    },
+    "2841": {
+      "title": "FUEL QUANTITY INDICATOR",
+      "ata_chapter": "28"
+    },
+    "2842": {
+      "title": "FUEL QUANTITY SENSOR",
+      "ata_chapter": "28"
+    },
+    "2843": {
+      "title": "FUEL TEMPERATURE INDICATOR",
+      "ata_chapter": "28"
+    },
+    "2844": {
+      "title": "FUEL PRESSURE INDICATOR",
+      "ata_chapter": "28"
+    },
+    "2897": {
+      "title": "FUEL SYSTEM WIRING",
+      "ata_chapter": "28"
+    },
+    "2900": {
+      "title": "HYDRAULIC POWER SYSTEM",
+      "ata_chapter": "29"
+    },
+    "2910": {
+      "title": "HYDRAULIC SYSTEM, MAIN",
+      "ata_chapter": "29"
+    },
+    "2911": {
+      "title": "HYDRAULIC POWER ACCUMULATOR, MAIN",
+      "ata_chapter": "29"
+    },
+    "2912": {
+      "title": "HYDRAULIC FILTER, MAIN",
+      "ata_chapter": "29"
+    },
+    "2913": {
+      "title": "HYDRAULIC PUMP, (ELECT/ENG), MAIN",
+      "ata_chapter": "29"
+    },
+    "2914": {
+      "title": "HYDRAULIC HANDPUMP, MAIN",
+      "ata_chapter": "29"
+    },
+    "2915": {
+      "title": "HYDRAULIC PRESSURE RELIEF VLV, MAIN",
+      "ata_chapter": "29"
+    },
+    "2916": {
+      "title": "HYDRAULIC RESERVOIR, MAIN",
+      "ata_chapter": "29"
+    },
+    "2917": {
+      "title": "HYDRAULIC PRESSURE REGULATOR, MAIN",
+      "ata_chapter": "29"
+    },
+    "2920": {
+      "title": "HYDRAULIC SYSTEM, AUXILIARY",
+      "ata_chapter": "29"
+    },
+    "2921": {
+      "title": "HYDRAULIC ACCUMULATOR, AUXILIARY",
+      "ata_chapter": "29"
+    },
+    "2922": {
+      "title": "HYDRAULIC FILTER, AUXILIARY",
+      "ata_chapter": "29"
+    },
+    "2923": {
+      "title": "HYDRAULIC PUMP, AUXILIARY",
+      "ata_chapter": "29"
+    },
+    "2925": {
+      "title": "HYDRAULIC PRESSURE RELIEF, AUXILIARY",
+      "ata_chapter": "29"
+    },
+    "2926": {
+      "title": "HYDRAULIC RESERVOIR, AUXILIARY",
+      "ata_chapter": "29"
+    },
+    "2927": {
+      "title": "HYDRAULIC PRESSURE REGULATOR, AUX.",
+      "ata_chapter": "29"
+    },
+    "2930": {
+      "title": "HYDRAULIC INDICATING SYSTEM",
+      "ata_chapter": "29"
+    },
+    "2931": {
+      "title": "HYDRAULIC PRESSURE INDICATOR",
+      "ata_chapter": "29"
+    },
+    "2932": {
+      "title": "HYDRAULIC PRESSURE SENSOR",
+      "ata_chapter": "29"
+    },
+    "2933": {
+      "title": "HYDRAULIC QUANTITY INDICATOR",
+      "ata_chapter": "29"
+    },
+    "2934": {
+      "title": "HYDRAULIC QUANTITY SENSOR",
+      "ata_chapter": "29"
+    },
+    "2997": {
+      "title": "HYDRAULIC POWER SYSTEM WIRING",
+      "ata_chapter": "29"
+    },
+    "3000": {
+      "title": "ICE/RAIN PROTECTION SYSTEM",
+      "ata_chapter": "30"
+    },
+    "3010": {
+      "title": "AIRFOIL ANTI/DE-ICE SYSTEM",
+      "ata_chapter": "30"
+    },
+    "3020": {
+      "title": "AIR INTAKE ANTI/DE-ICE SYSTEM",
+      "ata_chapter": "30"
+    },
+    "3030": {
+      "title": "PITOT/STATIC ANTI-ICE SYSTEM",
+      "ata_chapter": "30"
+    },
+    "3040": {
+      "title": "WINDSHIELD/DOOR RAIN/ICE REMOVAL",
+      "ata_chapter": "30"
+    },
+    "3050": {
+      "title": "ANTENNA/RADOME ANTI-ICE/DE-ICE SYSTEM",
+      "ata_chapter": "30"
+    },
+    "3060": {
+      "title": "PROP/ROTOR ANTI-ICE/DE-ICE SYSTEM",
+      "ata_chapter": "30"
+    },
+    "3070": {
+      "title": "WATER LINE ANTI-ICE SYSTEM",
+      "ata_chapter": "30"
+    },
+    "3080": {
+      "title": "ICE DETECTION",
+      "ata_chapter": "30"
+    },
+    "3097": {
+      "title": "ICE/RAIN PROTECTION SYSTEM WIRING",
+      "ata_chapter": "30"
+    },
+    "3100": {
+      "title": "INDICATING/RECORDING SYSTEM",
+      "ata_chapter": "31"
+    },
+    "3110": {
+      "title": "INSTRUMENT PANEL",
+      "ata_chapter": "31"
+    },
+    "3120": {
+      "title": "INDEPENDENT INSTRUMENTS (CLOCK, ETC.)",
+      "ata_chapter": "31"
+    },
+    "3130": {
+      "title": "DATA RECORDERS (FLT/MAINT)",
+      "ata_chapter": "31"
+    },
+    "3140": {
+      "title": "CENTRAL COMPUTERS (EICAS)",
+      "ata_chapter": "31"
+    },
+    "3150": {
+      "title": "CENTRAL WARNING",
+      "ata_chapter": "31"
+    },
+    "3160": {
+      "title": "CENTRAL DISPLAY",
+      "ata_chapter": "31"
+    },
+    "3170": {
+      "title": "AUTOMATIC DATA",
+      "ata_chapter": "31"
+    },
+    "3197": {
+      "title": "INSTRUMENT SYSTEM WIRING",
+      "ata_chapter": "31"
+    },
+    "3200": {
+      "title": "LANDING GEAR SYSTEM",
+      "ata_chapter": "32"
+    },
+    "3201": {
+      "title": "LANDING GEAR/WHEEL FAIRING",
+      "ata_chapter": "32"
+    },
+    "3210": {
+      "title": "MAIN LANDING GEAR",
+      "ata_chapter": "32"
+    },
+    "3211": {
+      "title": "MAIN LANDING GEAR ATTACH SECTION",
+      "ata_chapter": "32"
+    },
+    "3212": {
+      "title": "EMERGENCY FLOTATION SECTION",
+      "ata_chapter": "32"
+    },
+    "3213": {
+      "title": "MAIN LANDING GEAR STRUT/AXLE/TRUCK",
+      "ata_chapter": "32"
+    },
+    "3220": {
+      "title": "NOSE/TAIL LANDING GEAR",
+      "ata_chapter": "32"
+    },
+    "3221": {
+      "title": "NOSE/TAIL LANDING GEAR ATTACH SECTION",
+      "ata_chapter": "32"
+    },
+    "3222": {
+      "title": "NOSE/TAIL LANDING GEAR STRUT/AXLE",
+      "ata_chapter": "32"
+    },
+    "3230": {
+      "title": "LANDING GEAR RETRACT/EXTEND SYSTEM",
+      "ata_chapter": "32"
+    },
+    "3231": {
+      "title": "LANDING GEAR DOOR RETRACT SECTION",
+      "ata_chapter": "32"
+    },
+    "3232": {
+      "title": "LANDING GEAR DOOR ACTUATOR",
+      "ata_chapter": "32"
+    },
+    "3233": {
+      "title": "LANDING GEAR ACTUATOR",
+      "ata_chapter": "32"
+    },
+    "3234": {
+      "title": "LANDING GEAR SELECTOR",
+      "ata_chapter": "32"
+    },
+    "3240": {
+      "title": "LANDING GEAR BRAKE SYSTEM",
+      "ata_chapter": "32"
+    },
+    "3241": {
+      "title": "BRAKE ANTI-SKID SECTION",
+      "ata_chapter": "32"
+    },
+    "3242": {
+      "title": "BRAKE",
+      "ata_chapter": "32"
+    },
+    "3243": {
+      "title": "MASTER CYLINDER/BRAKE VALVE",
+      "ata_chapter": "32"
+    },
+    "3244": {
+      "title": "TIRE",
+      "ata_chapter": "32"
+    },
+    "3245": {
+      "title": "TIRE TUBE",
+      "ata_chapter": "32"
+    },
+    "3246": {
+      "title": "WHEEL/SKI/FLOAT",
+      "ata_chapter": "32"
+    },
+    "3250": {
+      "title": "LANDING GEAR STEERING SYSTEM",
+      "ata_chapter": "32"
+    },
+    "3251": {
+      "title": "STEERING UNIT",
+      "ata_chapter": "32"
+    },
+    "3252": {
+      "title": "SHIMMY DAMPER",
+      "ata_chapter": "32"
+    },
+    "3260": {
+      "title": "LANDING GEAR POSITION AND WARNING",
+      "ata_chapter": "32"
+    },
+    "3270": {
+      "title": "AUXILIARY GEAR (TAIL SKID)",
+      "ata_chapter": "32"
+    },
+    "3297": {
+      "title": "LANDING GEAR SYSTEM WIRING",
+      "ata_chapter": "32"
+    },
+    "3300": {
+      "title": "LIGHTING SYSTEM",
+      "ata_chapter": "33"
+    },
+    "3310": {
+      "title": "FLIGHT COMPARTMENT LIGHTING",
+      "ata_chapter": "33"
+    },
+    "3320": {
+      "title": "PASSENGER COMPARTMENT LIGHTING",
+      "ata_chapter": "33"
+    },
+    "3330": {
+      "title": "CARGO COMPARTMENT LIGHTING",
+      "ata_chapter": "33"
+    },
+    "3340": {
+      "title": "EXTERIOR LIGHTING",
+      "ata_chapter": "33"
+    },
+    "3350": {
+      "title": "EMERGENCY LIGHTING",
+      "ata_chapter": "33"
+    },
+    "3397": {
+      "title": "LIGHT SYSTEM WIRING",
+      "ata_chapter": "33"
+    },
+    "3400": {
+      "title": "NAVIGATION SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3410": {
+      "title": "FLIGHT ENVIRONMENT DATA",
+      "ata_chapter": "34"
+    },
+    "3411": {
+      "title": "PITOT/STATIC SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3412": {
+      "title": "OUTSIDE AIR TEMP. IND./SENSOR",
+      "ata_chapter": "34"
+    },
+    "3413": {
+      "title": "RATE OF CLIMB INDICATOR",
+      "ata_chapter": "34"
+    },
+    "3414": {
+      "title": "AIRSPEED/MACH INDICATOR",
+      "ata_chapter": "34"
+    },
+    "3415": {
+      "title": "HIGH SPEED WARNING",
+      "ata_chapter": "34"
+    },
+    "3416": {
+      "title": "ALTIMETER, BAROMETRIC/ENCODER",
+      "ata_chapter": "34"
+    },
+    "3417": {
+      "title": "AIR DATA COMPUTER",
+      "ata_chapter": "34"
+    },
+    "3418": {
+      "title": "STALL WARNING SYSTEM",
+      "ata_chapter": null
+    },
+    "3420": {
+      "title": "ATTITUDE AND DIRECTION DATA SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3421": {
+      "title": "ATTITUDE GYRO AND IND. SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3422": {
+      "title": "DIRECTIONAL GYRO AND IND. SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3423": {
+      "title": "MAGNETIC COMPASS",
+      "ata_chapter": "34"
+    },
+    "3424": {
+      "title": "TURN AND BANK/RATE OF TURN INDICATOR",
+      "ata_chapter": "34"
+    },
+    "3425": {
+      "title": "INTEGRATED FLT. DIRECTOR SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3430": {
+      "title": "LANDING AND TAXI AIDS",
+      "ata_chapter": "34"
+    },
+    "3431": {
+      "title": "LOCALIZER/VOR SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3432": {
+      "title": "GLIDE SLOPE SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3433": {
+      "title": "MICROWAVE LANDING SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3434": {
+      "title": "MARKER BEACON SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3435": {
+      "title": "HEADS UP DISPLAY SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3436": {
+      "title": "WIND SHEAR DETECTION SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3440": {
+      "title": "INDEPENDENT POS. DETERMINING SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3441": {
+      "title": "INERTIAL GUIDANCE SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3442": {
+      "title": "WEATHER RADAR SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3443": {
+      "title": "DOPPLER SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3444": {
+      "title": "GROUND PROXIMITY SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3445": {
+      "title": "AIR COLLISION AVOIDANCE SYSTEM (TCAS)",
+      "ata_chapter": "34"
+    },
+    "3446": {
+      "title": "NON RADAR WEATHER SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3450": {
+      "title": "DEPENDENT POSITION DETERMINING SYS",
+      "ata_chapter": "34"
+    },
+    "3451": {
+      "title": "DME/TACAN SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3452": {
+      "title": "ATC TRANSPONDER SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3453": {
+      "title": "LORAN SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3454": {
+      "title": "VOR SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3455": {
+      "title": "ADF SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3456": {
+      "title": "OMEGA NAVIGATION SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3457": {
+      "title": "GLOBAL POSITIONING SYSTEM",
+      "ata_chapter": "34"
+    },
+    "3460": {
+      "title": "FLT MANAGE. COMPUTING HARDWARE SYS",
+      "ata_chapter": "34"
+    },
+    "3461": {
+      "title": "FLT MANAGE. COMPUTING SOFTWARE SYS",
+      "ata_chapter": "34"
+    },
+    "3497": {
+      "title": "NAVIGATION SYSTEM WIRING",
+      "ata_chapter": "34"
+    },
+    "3500": {
+      "title": "OXYGEN SYSTEM",
+      "ata_chapter": "35"
+    },
+    "3510": {
+      "title": "CREW OXYGEN SYSTEM",
+      "ata_chapter": "35"
+    },
+    "3520": {
+      "title": "PASSENGER OXYGEN SYSTEM",
+      "ata_chapter": "35"
+    },
+    "3530": {
+      "title": "PORTABLE OXYGEN SYSTEM",
+      "ata_chapter": "35"
+    },
+    "3597": {
+      "title": "OXYGEN SYSTEM WIRING",
+      "ata_chapter": "35"
+    },
+    "3600": {
+      "title": "PNEUMATIC SYSTEM",
+      "ata_chapter": "36"
+    },
+    "3610": {
+      "title": "PNEUMATIC DISTRIBUTION SYSTEM",
+      "ata_chapter": "36"
+    },
+    "3620": {
+      "title": "PNEUMATIC INDICATING SYSTEM",
+      "ata_chapter": "36"
+    },
+    "3697": {
+      "title": "PNEUMATIC SYSTEM WIRING",
+      "ata_chapter": "36"
+    },
+    "3700": {
+      "title": "VACUUM SYSTEM",
+      "ata_chapter": null
+    },
+    "3710": {
+      "title": "VACUUM DISTRIBUTION SYSTEM",
+      "ata_chapter": null
+    },
+    "3720": {
+      "title": "VACUUM INDICATING SYSTEM",
+      "ata_chapter": null
+    },
+    "3797": {
+      "title": "VACUUM SYSTEM WIRING",
+      "ata_chapter": null
+    },
+    "3800": {
+      "title": "WATER AND WASTE SYSTEM",
+      "ata_chapter": "38"
+    },
+    "3810": {
+      "title": "POTABLE WATER SYSTEM",
+      "ata_chapter": "38"
+    },
+    "3820": {
+      "title": "WASH WATER SYSTEM",
+      "ata_chapter": "38"
+    },
+    "3830": {
+      "title": "WASTE DISPOSAL SYSTEM",
+      "ata_chapter": "38"
+    },
+    "3840": {
+      "title": "AIR SUPPLY (WATER PRESS. SYSTEM)",
+      "ata_chapter": "38"
+    },
+    "3897": {
+      "title": "WATER/WASTE SYSTEM WIRING",
+      "ata_chapter": "38"
+    },
+    "4500": {
+      "title": "CENTRAL MAINT. COMPUTER",
+      "ata_chapter": "45"
+    },
+    "4597": {
+      "title": "CENTRAL MAINT. SYSTEM WIRING",
+      "ata_chapter": "45"
+    },
+    "4900": {
+      "title": "AIRBORNE APU SYSTEM",
+      "ata_chapter": "49"
+    },
+    "4910": {
+      "title": "APU COWLING/CONTAINMENT",
+      "ata_chapter": "49"
+    },
+    "4920": {
+      "title": "APU CORE ENGINE",
+      "ata_chapter": "49"
+    },
+    "4930": {
+      "title": "APU ENGINE FUEL AND CONTROL",
+      "ata_chapter": "49"
+    },
+    "4940": {
+      "title": "APU START/IGNITION SYSTEM",
+      "ata_chapter": "49"
+    },
+    "4950": {
+      "title": "APU BLEED AIR SYSTEM",
+      "ata_chapter": "49"
+    },
+    "4960": {
+      "title": "APU CONTROLS",
+      "ata_chapter": "49"
+    },
+    "4970": {
+      "title": "APU INDICATING SYSTEM",
+      "ata_chapter": "49"
+    },
+    "4980": {
+      "title": "APU EXHAUST SYSTEM",
+      "ata_chapter": "49"
+    },
+    "4990": {
+      "title": "APU OIL SYSTEM",
+      "ata_chapter": "49"
+    },
+    "4997": {
+      "title": "APU SYSTEM WIRING",
+      "ata_chapter": "49"
+    },
+    "5100": {
+      "title": "STANDARD PRACTICES/STRUCTURES",
+      "ata_chapter": "51"
+    },
+    "5101": {
+      "title": "AIRCRAFT STRUCTURES",
+      "ata_chapter": "51"
+    },
+    "5102": {
+      "title": "BALLOON REPORTS",
+      "ata_chapter": "51"
+    },
+    "5200": {
+      "title": "DOORS",
+      "ata_chapter": "52"
+    },
+    "5210": {
+      "title": "PASSENGER/CREW DOORS",
+      "ata_chapter": "52"
+    },
+    "5220": {
+      "title": "EMERGENCY EXITS",
+      "ata_chapter": "52"
+    },
+    "5230": {
+      "title": "CARGO/BAGGAGE DOORS",
+      "ata_chapter": "52"
+    },
+    "5240": {
+      "title": "SERVICE DOORS",
+      "ata_chapter": "52"
+    },
+    "5241": {
+      "title": "GALLEY DOORS",
+      "ata_chapter": "52"
+    },
+    "5242": {
+      "title": "E/E COMPARTMENT DOORS",
+      "ata_chapter": "52"
+    },
+    "5243": {
+      "title": "HYDRAULIC COMPARTMENT DOORS",
+      "ata_chapter": "52"
+    },
+    "5244": {
+      "title": "ACCESSORY COMPARTMENT DOORS",
+      "ata_chapter": "52"
+    },
+    "5245": {
+      "title": "AIR CONDITIONING COMPART. DOORS",
+      "ata_chapter": "52"
+    },
+    "5246": {
+      "title": "FLUID SERVICE DOORS",
+      "ata_chapter": "52"
+    },
+    "5247": {
+      "title": "APU DOORS",
+      "ata_chapter": "52"
+    },
+    "5248": {
+      "title": "TAIL CONE DOORS",
+      "ata_chapter": "52"
+    },
+    "5250": {
+      "title": "FIXED INNER DOORS",
+      "ata_chapter": "52"
+    },
+    "5260": {
+      "title": "ENTRANCE STAIRS",
+      "ata_chapter": "52"
+    },
+    "5270": {
+      "title": "DOOR WARNING SYSTEM",
+      "ata_chapter": "52"
+    },
+    "5280": {
+      "title": "LANDING GEAR DOORS",
+      "ata_chapter": "52"
+    },
+    "5297": {
+      "title": "DOOR SYSTEM WIRING",
+      "ata_chapter": "52"
+    },
+    "5300": {
+      "title": "FUSELAGE STRUCTURE (GENERAL)",
+      "ata_chapter": "53"
+    },
+    "5301": {
+      "title": "AERIAL TOW EQUIPMENT",
+      "ata_chapter": "53"
+    },
+    "5302": {
+      "title": "ROTORCRAFT TAIL BOOM",
+      "ata_chapter": "53"
+    },
+    "5310": {
+      "title": "FUSELAGE MAIN, STRUCTURE",
+      "ata_chapter": "53"
+    },
+    "5311": {
+      "title": "FUSELAGE MAIN, FRAME",
+      "ata_chapter": "53"
+    },
+    "5312": {
+      "title": "FUSELAGE MAIN, BULKHEAD",
+      "ata_chapter": "53"
+    },
+    "5313": {
+      "title": "FUSELAGE MAIN, LONGERON/STRINGER",
+      "ata_chapter": "53"
+    },
+    "5314": {
+      "title": "FUSELAGE MAIN, KEEL",
+      "ata_chapter": "53"
+    },
+    "5315": {
+      "title": "FUSELAGE MAIN, FLOOR BEAM",
+      "ata_chapter": "53"
+    },
+    "5320": {
+      "title": "FUSELAGE MISCELLANEOUS STRUCTURE",
+      "ata_chapter": "53"
+    },
+    "5321": {
+      "title": "FUSELAGE FLOOR PANEL",
+      "ata_chapter": "53"
+    },
+    "5322": {
+      "title": "FUSELAGE INTERNAL MOUNT STRUCTURE",
+      "ata_chapter": "53"
+    },
+    "5323": {
+      "title": "FUSELAGE INTERNAL STAIRS",
+      "ata_chapter": "53"
+    },
+    "5324": {
+      "title": "FUSELAGE FIXED PARTITIONS",
+      "ata_chapter": "53"
+    },
+    "5330": {
+      "title": "FUSELAGE MAIN, PLATE/SKIN",
+      "ata_chapter": "53"
+    },
+    "5340": {
+      "title": "FUSELAGE MAIN, ATTACH FITTINGS",
+      "ata_chapter": "53"
+    },
+    "5341": {
+      "title": "FUSELAGE, WING ATTACH FITTINGS",
+      "ata_chapter": "53"
+    },
+    "5342": {
+      "title": "FUSELAGE, STABILIZER ATTACH FITTINGS",
+      "ata_chapter": "53"
+    },
+    "5343": {
+      "title": "LANDING GEAR ATTACH FITTINGS",
+      "ata_chapter": "53"
+    },
+    "5344": {
+      "title": "FUSELAGE DOOR HINGES",
+      "ata_chapter": "53"
+    },
+    "5345": {
+      "title": "FUSELAGE EQUIPMENT ATTACH FITTINGS",
+      "ata_chapter": "53"
+    },
+    "5346": {
+      "title": "POWERPLANT ATTACH FITTINGS",
+      "ata_chapter": "53"
+    },
+    "5347": {
+      "title": "SEAT/CARGO ATTACH FITTINGS",
+      "ata_chapter": "53"
+    },
+    "5350": {
+      "title": "AERODYNAMIC FAIRINGS",
+      "ata_chapter": "53"
+    },
+    "5397": {
+      "title": "FUSELAGE WIRING",
+      "ata_chapter": "53"
+    },
+    "5400": {
+      "title": "NACELLE/PYLON STRUCTURE",
+      "ata_chapter": "54"
+    },
+    "5410": {
+      "title": "NACELLE/PYLON, MAIN FRAME",
+      "ata_chapter": "54"
+    },
+    "5411": {
+      "title": "NACELLE/PYLON, FRAME/SPAR/RIB",
+      "ata_chapter": "54"
+    },
+    "5412": {
+      "title": "NACELLE/PYLON, BULKHEAD/FIREWALL",
+      "ata_chapter": "54"
+    },
+    "5413": {
+      "title": "NACELLE/PYLON, LONGERON/STRINGER",
+      "ata_chapter": "54"
+    },
+    "5414": {
+      "title": "NACELLE/PYLON, PLATE SKIN",
+      "ata_chapter": "54"
+    },
+    "5415": {
+      "title": "NACELLE/PYLON, ATTACH FITTINGS",
+      "ata_chapter": "54"
+    },
+    "5420": {
+      "title": "NACELLE/PYLON MISCELLANEOUS STRUCT.",
+      "ata_chapter": "54"
+    },
+    "5497": {
+      "title": "NACELLE/PYLON SYSTEM WIRING",
+      "ata_chapter": "54"
+    },
+    "5500": {
+      "title": "EMPENNAGE STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5510": {
+      "title": "HORIZONTAL STABILIZER STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5511": {
+      "title": "HORIZONTAL STABILIZER, SPAR/RIB",
+      "ata_chapter": "55"
+    },
+    "5512": {
+      "title": "HORIZONTAL STABILIZER, PLATE/SKIN",
+      "ata_chapter": "55"
+    },
+    "5513": {
+      "title": "HORIZONTAL STABILIZER, TAB STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5514": {
+      "title": "HORIZ STAB MISCELLANEOUS STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5520": {
+      "title": "ELEVATOR STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5521": {
+      "title": "ELEVATOR, SPAR/RIB STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5522": {
+      "title": "ELEVATOR, PLATES/SKIN STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5523": {
+      "title": "ELEVATOR, TAB STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5524": {
+      "title": "ELEVATOR MISCELLANEOUS STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5530": {
+      "title": "VERTICAL STABILIZER STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5531": {
+      "title": "VERTICAL STABILIZER, SPAR/RIB STRUCT.",
+      "ata_chapter": "55"
+    },
+    "5532": {
+      "title": "VERTICAL STABILIZER, PLATES/SKIN",
+      "ata_chapter": "55"
+    },
+    "5533": {
+      "title": "VENTRAL STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5534": {
+      "title": "VERT. STAB. MISCELLANEOUS STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5540": {
+      "title": "RUDDER STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5541": {
+      "title": "RUDDER, SPAR/RIB",
+      "ata_chapter": "55"
+    },
+    "5542": {
+      "title": "RUDDER, PLATE/SKIN",
+      "ata_chapter": "55"
+    },
+    "5543": {
+      "title": "RUDDER, TAB STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5544": {
+      "title": "RUDDER MISCELLANEOUS STRUCTURE",
+      "ata_chapter": "55"
+    },
+    "5550": {
+      "title": "EMPENNAGE FLT. CONT., ATTACH FITTING",
+      "ata_chapter": "55"
+    },
+    "5551": {
+      "title": "HORIZONTAL STABILIZER, ATTACH FITTING",
+      "ata_chapter": "55"
+    },
+    "5552": {
+      "title": "ELEVATOR/TAB, ATTACH FITTINGS",
+      "ata_chapter": "55"
+    },
+    "5553": {
+      "title": "VERT. STAB., ATTACH FITTINGS",
+      "ata_chapter": "55"
+    },
+    "5554": {
+      "title": "RUDDER/TAB, ATTACH FITTINGS",
+      "ata_chapter": "55"
+    },
+    "5597": {
+      "title": "STABILIZER SYSTEM WIRING",
+      "ata_chapter": "55"
+    },
+    "5600": {
+      "title": "WINDOW/WINDSHIELD SYSTEM",
+      "ata_chapter": "56"
+    },
+    "5610": {
+      "title": "FLIGHT COMPARTMENT WINDOWS",
+      "ata_chapter": "56"
+    },
+    "5620": {
+      "title": "PASSENGER COMPARTMENT WINDOWS",
+      "ata_chapter": "56"
+    },
+    "5630": {
+      "title": "DOOR WINDOWS",
+      "ata_chapter": "56"
+    },
+    "5640": {
+      "title": "INSPECTION WINDOWS",
+      "ata_chapter": "56"
+    },
+    "5697": {
+      "title": "WINDOW SYSTEM WIRING",
+      "ata_chapter": "56"
+    },
+    "5700": {
+      "title": "WING STRUCTURE",
+      "ata_chapter": "57"
+    },
+    "5710": {
+      "title": "WING, MAIN FRAME STRUCTURE",
+      "ata_chapter": "57"
+    },
+    "5711": {
+      "title": "WING SPAR",
+      "ata_chapter": "57"
+    },
+    "5712": {
+      "title": "WING, RIB/BULKHEAD",
+      "ata_chapter": "57"
+    },
+    "5713": {
+      "title": "WING, LONGERON/STRINGER",
+      "ata_chapter": "57"
+    },
+    "5714": {
+      "title": "WING, CENTER BOX",
+      "ata_chapter": "57"
+    },
+    "5720": {
+      "title": "WING MISCELLANEOUS STRUCTURE",
+      "ata_chapter": "57"
+    },
+    "5730": {
+      "title": "WING, PLATES/SKINS",
+      "ata_chapter": "57"
+    },
+    "5740": {
+      "title": "WING, ATTACH FITTINGS",
+      "ata_chapter": "57"
+    },
+    "5741": {
+      "title": "WING, FUSELAGE ATTACH FITTINGS",
+      "ata_chapter": "57"
+    },
+    "5742": {
+      "title": "WING, NAC/PYLON ATTACH FITTINGS",
+      "ata_chapter": "57"
+    },
+    "5743": {
+      "title": "WING, LANDING GEAR ATTACH FITTINGS",
+      "ata_chapter": "57"
+    },
+    "5744": {
+      "title": "WING, CONT. SURFACE ATTACH FITTINGS",
+      "ata_chapter": "57"
+    },
+    "5750": {
+      "title": "WING, CONTROL SURFACES",
+      "ata_chapter": "57"
+    },
+    "5751": {
+      "title": "AILERONS",
+      "ata_chapter": "57"
+    },
+    "5752": {
+      "title": "AILERON TAB STRUCTURE",
+      "ata_chapter": "57"
+    },
+    "5753": {
+      "title": "TRAILING EDGE FLAPS",
+      "ata_chapter": "57"
+    },
+    "5754": {
+      "title": "LEADING EDGE DEVICES",
+      "ata_chapter": "57"
+    },
+    "5755": {
+      "title": "SPOILERS",
+      "ata_chapter": "57"
+    },
+    "5797": {
+      "title": "WING SYSTEM WIRING",
+      "ata_chapter": "57"
+    },
+    "6100": {
+      "title": "PROPELLER SYSTEM",
+      "ata_chapter": "61"
+    },
+    "6110": {
+      "title": "PROPELLER ASSEMBLY",
+      "ata_chapter": "61"
+    },
+    "6111": {
+      "title": "PROPELLER BLADE SECTION",
+      "ata_chapter": "61"
+    },
+    "6112": {
+      "title": "PROPELLER DE-ICE BOOT SECTION",
+      "ata_chapter": "61"
+    },
+    "6113": {
+      "title": "PROPELLER SPINNER SECTION",
+      "ata_chapter": "61"
+    },
+    "6114": {
+      "title": "PROPELLER HUB SECTION",
+      "ata_chapter": "61"
+    },
+    "6120": {
+      "title": "PROPELLER CONTROLLING SYSTEM",
+      "ata_chapter": "61"
+    },
+    "6121": {
+      "title": "PROPELLER SYNCHRONIZER SECTION",
+      "ata_chapter": "61"
+    },
+    "6122": {
+      "title": "PROPELLER GOVERNOR",
+      "ata_chapter": "61"
+    },
+    "6123": {
+      "title": "PROPELLER FEATHERING/REVERSING",
+      "ata_chapter": "61"
+    },
+    "6130": {
+      "title": "PROPELLER BRAKING",
+      "ata_chapter": "61"
+    },
+    "6140": {
+      "title": "PROPELLER INDICATING SYSTEM",
+      "ata_chapter": "61"
+    },
+    "6197": {
+      "title": "PROPELLER/PROPULSORS SYSTEM WIRING",
+      "ata_chapter": "61"
+    },
+    "6200": {
+      "title": "MAIN ROTOR SYSTEM",
+      "ata_chapter": "62"
+    },
+    "6210": {
+      "title": "MAIN ROTOR BLADES",
+      "ata_chapter": "62"
+    },
+    "6220": {
+      "title": "MAIN ROTOR HEAD",
+      "ata_chapter": "62"
+    },
+    "6230": {
+      "title": "MAIN ROTOR MAST/SWASHPLATE",
+      "ata_chapter": "62"
+    },
+    "6240": {
+      "title": "MAIN ROTOR INDICATING SYSTEM",
+      "ata_chapter": "62"
+    },
+    "6297": {
+      "title": "MAIN ROTOR SYSTEM WIRING",
+      "ata_chapter": "62"
+    },
+    "6300": {
+      "title": "MAIN ROTOR DRIVE SYSTEM",
+      "ata_chapter": "63"
+    },
+    "6310": {
+      "title": "ENGINE/TRANSMISSION COUPLING",
+      "ata_chapter": "63"
+    },
+    "6320": {
+      "title": "MAIN ROTOR GEARBOX",
+      "ata_chapter": "63"
+    },
+    "6321": {
+      "title": "MAIN ROTOR BRAKE",
+      "ata_chapter": "63"
+    },
+    "6322": {
+      "title": "ROTORCRAFT COOLING FAN SYSTEM",
+      "ata_chapter": "63"
+    },
+    "6330": {
+      "title": "MAIN ROTOR TRANSMISSION MOUNT",
+      "ata_chapter": "63"
+    },
+    "6340": {
+      "title": "ROTOR DRIVE INDICATING SYSTEM",
+      "ata_chapter": "63"
+    },
+    "6397": {
+      "title": "MAIN ROTOR DRIVE SYSTEM WIRING",
+      "ata_chapter": "63"
+    },
+    "6400": {
+      "title": "TAIL ROTOR SYSTEM",
+      "ata_chapter": "64"
+    },
+    "6410": {
+      "title": "TAIL ROTOR BLADES",
+      "ata_chapter": "64"
+    },
+    "6420": {
+      "title": "TAIL ROTOR HEAD",
+      "ata_chapter": "64"
+    },
+    "6440": {
+      "title": "TAIL ROTOR INDICATING SYSTEM",
+      "ata_chapter": "64"
+    },
+    "6497": {
+      "title": "TAIL ROTOR SYSTEM WIRING",
+      "ata_chapter": "64"
+    },
+    "6500": {
+      "title": "TAIL ROTOR DRIVE SYSTEM",
+      "ata_chapter": "65"
+    },
+    "6510": {
+      "title": "TAIL ROTOR DRIVE SHAFT",
+      "ata_chapter": "65"
+    },
+    "6520": {
+      "title": "TAIL ROTOR GEARBOX",
+      "ata_chapter": "65"
+    },
+    "6540": {
+      "title": "TAIL ROTOR DRIVE INDICATING SYSTEM",
+      "ata_chapter": "65"
+    },
+    "6597": {
+      "title": "TAIL ROTOR DRIVE SYSTEM WIRING",
+      "ata_chapter": "65"
+    },
+    "6700": {
+      "title": "ROTORCRAFT FLIGHT CONTROL",
+      "ata_chapter": "67"
+    },
+    "6710": {
+      "title": "MAIN ROTOR CONTROL",
+      "ata_chapter": "67"
+    },
+    "6711": {
+      "title": "TILT ROTOR FLIGHT CONTROL",
+      "ata_chapter": "67"
+    },
+    "6720": {
+      "title": "TAIL ROTOR CONTROL SYSTEM",
+      "ata_chapter": "67"
+    },
+    "6730": {
+      "title": "ROTORCRAFT SERVO SYSTEM",
+      "ata_chapter": "67"
+    },
+    "6797": {
+      "title": "ROTORS FLIGHT CONTROL SYSTEM WIRING",
+      "ata_chapter": "67"
+    },
+    "7100": {
+      "title": "POWERPLANT SYSTEM",
+      "ata_chapter": "71"
+    },
+    "7110": {
+      "title": "ENGINE COWLING SYSTEM",
+      "ata_chapter": "71"
+    },
+    "7111": {
+      "title": "ENGINE COWL FLAPS",
+      "ata_chapter": "71"
+    },
+    "7112": {
+      "title": "ENGINE AIR BAFFLE SECTION",
+      "ata_chapter": "71"
+    },
+    "7120": {
+      "title": "ENGINE MOUNT SECTION",
+      "ata_chapter": "71"
+    },
+    "7130": {
+      "title": "ENGINE FIRESEALS",
+      "ata_chapter": "71"
+    },
+    "7160": {
+      "title": "ENGINE AIR INTAKE SYSTEM",
+      "ata_chapter": "71"
+    },
+    "7170": {
+      "title": "ENGINE DRAINS",
+      "ata_chapter": "71"
+    },
+    "7197": {
+      "title": "POWERPLANT SYSTEM WIRING",
+      "ata_chapter": "71"
+    },
+    "7200": {
+      "title": "ENGINE (TURBINE/TURBOPROP)",
+      "ata_chapter": "72"
+    },
+    "7210": {
+      "title": "TURBINE ENGINE REDUCTION GEAR",
+      "ata_chapter": "72"
+    },
+    "7220": {
+      "title": "TURBINE ENGINE AIR INLET SECTION",
+      "ata_chapter": "72"
+    },
+    "7230": {
+      "title": "TURBINE ENGINE COMPRESSOR SECTION",
+      "ata_chapter": "72"
+    },
+    "7240": {
+      "title": "TURBINE ENGINE COMBUSTION SECTION",
+      "ata_chapter": "72"
+    },
+    "7250": {
+      "title": "TURBINE SECTION",
+      "ata_chapter": "72"
+    },
+    "7260": {
+      "title": "TURBINE ENGINE ACCESSORY DRIVE",
+      "ata_chapter": "72"
+    },
+    "7261": {
+      "title": "TURBINE ENGINE OIL SYSTEM",
+      "ata_chapter": "72"
+    },
+    "7270": {
+      "title": "TURBINE ENGINE BYPASS SECTION",
+      "ata_chapter": "72"
+    },
+    "7297": {
+      "title": "TURBINE ENGINE SYSTEM WIRING",
+      "ata_chapter": "72"
+    },
+    "7300": {
+      "title": "ENGINE FUEL AND CONTROL",
+      "ata_chapter": "73"
+    },
+    "7310": {
+      "title": "ENGINE FUEL DISTRIBUTION",
+      "ata_chapter": "73"
+    },
+    "7311": {
+      "title": "ENGINE FUEL/OIL COOLER",
+      "ata_chapter": "73"
+    },
+    "7312": {
+      "title": "FUEL HEATER",
+      "ata_chapter": "73"
+    },
+    "7313": {
+      "title": "FUEL INJECTOR NOZZLE",
+      "ata_chapter": "73"
+    },
+    "7314": {
+      "title": "ENGINE FUEL PUMP",
+      "ata_chapter": "73"
+    },
+    "7320": {
+      "title": "FUEL CONTROLLING SYSTEM",
+      "ata_chapter": "73"
+    },
+    "7321": {
+      "title": "FUEL CONTROL/TURBINE ENGINES",
+      "ata_chapter": "73"
+    },
+    "7322": {
+      "title": "FUEL CONTROL/RECEIPROCATING ENGINES",
+      "ata_chapter": "73"
+    },
+    "7323": {
+      "title": "TURBINE GOVERNOR",
+      "ata_chapter": "73"
+    },
+    "7324": {
+      "title": "FUEL DIVIDER",
+      "ata_chapter": "73"
+    },
+    "7330": {
+      "title": "ENGINE FUEL INDICATING SYSTEM",
+      "ata_chapter": "73"
+    },
+    "7331": {
+      "title": "FUEL FLOW INDICATING",
+      "ata_chapter": "73"
+    },
+    "7332": {
+      "title": "FUEL PRESSURE INDICATING",
+      "ata_chapter": "73"
+    },
+    "7333": {
+      "title": "FUEL FLOW SENSOR",
+      "ata_chapter": "73"
+    },
+    "7334": {
+      "title": "FUEL PRESSURE SENSOR",
+      "ata_chapter": "73"
+    },
+    "7397": {
+      "title": "ENGINE FUEL SYSTEM WIRING",
+      "ata_chapter": "73"
+    },
+    "7400": {
+      "title": "IGNITION SYSTEM",
+      "ata_chapter": "74"
+    },
+    "7410": {
+      "title": "IGNITION POWER SUPPLY",
+      "ata_chapter": "74"
+    },
+    "7411": {
+      "title": "LOW TENSION COIL",
+      "ata_chapter": "74"
+    },
+    "7412": {
+      "title": "EXCITER",
+      "ata_chapter": "74"
+    },
+    "7413": {
+      "title": "INDUCTION VIBRATOR",
+      "ata_chapter": "74"
+    },
+    "7414": {
+      "title": "MAGNETO/DISTRIBUTOR",
+      "ata_chapter": "74"
+    },
+    "7420": {
+      "title": "IGNITION HARNESS (DISTRIBUTION)",
+      "ata_chapter": "74"
+    },
+    "7421": {
+      "title": "SPARK PLUG/IGNITER",
+      "ata_chapter": "74"
+    },
+    "7430": {
+      "title": "IGNITION/STARTER SWITCHING",
+      "ata_chapter": "74"
+    },
+    "7497": {
+      "title": "IGNITION SYSTEM WIRING",
+      "ata_chapter": "74"
+    },
+    "7500": {
+      "title": "ENGINE BLEED AIR SYSTEM",
+      "ata_chapter": "75"
+    },
+    "7510": {
+      "title": "ENGINE ANTI-ICING SYSTEM",
+      "ata_chapter": "75"
+    },
+    "7520": {
+      "title": "ENGINE COOLING SYSTEM",
+      "ata_chapter": "75"
+    },
+    "7530": {
+      "title": "COMPRESSOR BLEED CONTROL",
+      "ata_chapter": "75"
+    },
+    "7531": {
+      "title": "COMPRESSOR BLEED GOVERNOR",
+      "ata_chapter": "75"
+    },
+    "7532": {
+      "title": "COMPRESSOR BLEED VALVE",
+      "ata_chapter": "75"
+    },
+    "7540": {
+      "title": "BLEED AIR INDICATING SYSTEM",
+      "ata_chapter": "75"
+    },
+    "7597": {
+      "title": "ENGINE BLEED AIR SYSTEM WIRING",
+      "ata_chapter": "75"
+    },
+    "7600": {
+      "title": "ENGINE CONTROLS",
+      "ata_chapter": "76"
+    },
+    "7601": {
+      "title": "ENGINE SYNCHRONIZING",
+      "ata_chapter": "76"
+    },
+    "7602": {
+      "title": "MIXTURE CONTROL",
+      "ata_chapter": "76"
+    },
+    "7603": {
+      "title": "POWER LEVER",
+      "ata_chapter": "76"
+    },
+    "7620": {
+      "title": "ENGINE EMERGENCY SHUTDOWN SYSTEM",
+      "ata_chapter": "76"
+    },
+    "7697": {
+      "title": "ENGINE CONTROL SYSTEM WIRING",
+      "ata_chapter": "76"
+    },
+    "7700": {
+      "title": "ENGINE INDICATING SYSTEM",
+      "ata_chapter": "77"
+    },
+    "7710": {
+      "title": "POWER INDICATING SYSTEM",
+      "ata_chapter": "77"
+    },
+    "7711": {
+      "title": "ENGINE PRESSURE RATIO (EPR)",
+      "ata_chapter": "77"
+    },
+    "7712": {
+      "title": "ENGINE BMEP/TORQUE INDICATING",
+      "ata_chapter": "77"
+    },
+    "7713": {
+      "title": "MANIFOLD PRESSURE (MP) INDICATING",
+      "ata_chapter": "77"
+    },
+    "7714": {
+      "title": "ENGINE RPM INDICATING SYSTEM",
+      "ata_chapter": "77"
+    },
+    "7720": {
+      "title": "ENGINE TEMP. INDICATING SYSTEM",
+      "ata_chapter": "77"
+    },
+    "7721": {
+      "title": "CYLINDER HEAD TEMP (CHT) INDICATING",
+      "ata_chapter": "77"
+    },
+    "7722": {
+      "title": "ENG. EGT/TIT INDICATING SYSTEM",
+      "ata_chapter": "77"
+    },
+    "7730": {
+      "title": "ENGINE IGNITION ANALYZER SYSTEM",
+      "ata_chapter": "77"
+    },
+    "7731": {
+      "title": "ENGINE IGNITION ANALYZER",
+      "ata_chapter": "77"
+    },
+    "7732": {
+      "title": "ENGINE VIBRATION ANALYZER",
+      "ata_chapter": "77"
+    },
+    "7740": {
+      "title": "ENGINE INTEGRATED INSTRUMENT SYSTEM",
+      "ata_chapter": "77"
+    },
+    "7797": {
+      "title": "ENGINE INDICATING SYSTEM WIRING",
+      "ata_chapter": "77"
+    },
+    "7800": {
+      "title": "ENGINE EXHAUST SYSTEM",
+      "ata_chapter": "78"
+    },
+    "7810": {
+      "title": "ENGINE COLLECTOR/TAILPIPE/NOZZLE",
+      "ata_chapter": "78"
+    },
+    "7820": {
+      "title": "ENGINE NOISE SUPPRESSOR",
+      "ata_chapter": "78"
+    },
+    "7830": {
+      "title": "THRUST REVERSER",
+      "ata_chapter": "78"
+    },
+    "7897": {
+      "title": "ENGINE EXHAUST SYSTEM WIRING",
+      "ata_chapter": "78"
+    },
+    "7900": {
+      "title": "ENGINE OIL SYSTEM (AIRFRAME)",
+      "ata_chapter": "79"
+    },
+    "7910": {
+      "title": "ENGINE OIL STORAGE (AIRFRAME)",
+      "ata_chapter": "79"
+    },
+    "7920": {
+      "title": "ENGINE OIL DISTRIBUTION (AIRFRAME)",
+      "ata_chapter": "79"
+    },
+    "7921": {
+      "title": "ENGINE OIL COOLER",
+      "ata_chapter": "79"
+    },
+    "7922": {
+      "title": "ENGINE OIL TEMP. REGULATOR",
+      "ata_chapter": "79"
+    },
+    "7923": {
+      "title": "ENGINE OIL SHUTOFF VALVE",
+      "ata_chapter": "79"
+    },
+    "7930": {
+      "title": "ENGINE OIL INDICATING SYSTEM",
+      "ata_chapter": "79"
+    },
+    "7931": {
+      "title": "ENGINE OIL PRESSURE",
+      "ata_chapter": "79"
+    },
+    "7932": {
+      "title": "ENGINE OIL QUANTITY",
+      "ata_chapter": "79"
+    },
+    "7933": {
+      "title": "ENGINE OIL TEMPERATURE",
+      "ata_chapter": "79"
+    },
+    "7997": {
+      "title": "ENGINE OIL SYSTEM WIRING",
+      "ata_chapter": "79"
+    },
+    "8000": {
+      "title": "ENGINE STARTING SYSTEM",
+      "ata_chapter": "80"
+    },
+    "8010": {
+      "title": "ENGINE CRANKING",
+      "ata_chapter": "80"
+    },
+    "8011": {
+      "title": "ENGINE STARTER",
+      "ata_chapter": "80"
+    },
+    "8012": {
+      "title": "ENGINE START VALVES/CONTROLS",
+      "ata_chapter": "80"
+    },
+    "8097": {
+      "title": "ENGINE STARTING SYSTEM WIRING",
+      "ata_chapter": "80"
+    },
+    "8100": {
+      "title": "EXHAUST TURBINE SYSTEM (RECIP)",
+      "ata_chapter": null
+    },
+    "8110": {
+      "title": "POWER RECOVERY TURBINE (RECIP)",
+      "ata_chapter": null
+    },
+    "8120": {
+      "title": "EXHAUST TURBOCHARGER",
+      "ata_chapter": null
+    },
+    "8197": {
+      "title": "TURBOCHARGING SYSTEM WIRING",
+      "ata_chapter": null
+    },
+    "8200": {
+      "title": "WATER INJECTION SYSTEM",
+      "ata_chapter": null
+    },
+    "8297": {
+      "title": "WATER INJECTION SYSTEM WIRING",
+      "ata_chapter": null
+    },
+    "8300": {
+      "title": "ACCESSORY GEARBOXES",
+      "ata_chapter": null
+    },
+    "8397": {
+      "title": "ACCESSORY GEARBOX SYSTEM WIRING",
+      "ata_chapter": null
+    },
+    "8500": {
+      "title": "ENGINE (RECIPROCATING)",
+      "ata_chapter": null
+    },
+    "8510": {
+      "title": "RECIPROCATING ENGINE FRONT SECTION",
+      "ata_chapter": null
+    },
+    "8520": {
+      "title": "RECIPROCATING ENGINE POWER SECTION",
+      "ata_chapter": null
+    },
+    "8530": {
+      "title": "RECIPROCATING ENGINE CYLINDER SECTION",
+      "ata_chapter": null
+    },
+    "8540": {
+      "title": "RECIPROCATING ENGINE REAR SECTION",
+      "ata_chapter": null
+    },
+    "8550": {
+      "title": "RECIPROCATING ENGINE OIL SYSTEM",
+      "ata_chapter": null
+    },
+    "8560": {
+      "title": "RECIPROCATING ENGINE SUPERCHARGER",
+      "ata_chapter": null
+    },
+    "8570": {
+      "title": "RECIPROCATING ENGINE LIQUID COOLING",
+      "ata_chapter": null
+    },
+    "8597": {
+      "title": "RECIPROCATING ENGINE SYSTEM WIRING",
+      "ata_chapter": null
+    }
+  }
+}

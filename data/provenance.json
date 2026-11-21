@@ -1,0 +1,15 @@
+{
+  "source": "FAA annual SDR export",
+  "url": "https://external.apic4e.faa.gov/sdrs/retrieve/SDR-2025.csv",
+  "retrieved_at_utc": "2026-11-21T13:56:27.020362+00:00",
+  "sha256": "18a846e53f792717a098bcb3539e37b4bef4381f8491eab1674adf02382d0059",
+  "bytes": 33187598,
+  "content_type": "text/csv",
+  "selected_rows": 67653,
+  "fact_file": "faa_2025_facts.csv.gz",
+  "fact_sha256": "b680b6e0fb23d1fa8540a3a6fef8658ad4d7ac4436597aa1400592961a6f9dde",
+  "extract_version": 1,
+  "excluded_fields": "Narratives, submitter/operator identifiers, serials and registry text",
+  "aircraft_key": "First 24 hex characters of SHA256('FAA-registry:' + normalized registry). Public linkage, not anonymization.",
+  "year_basis": "Observed: all selected DifficultyDate values are in 2025; submissions include 2026. The downloaded filename is not used to infer submission year."
+}

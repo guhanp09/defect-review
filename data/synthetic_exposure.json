@@ -1,0 +1,16 @@
+{
+  "provenance": "Entirely synthetic; no airline or public SDR asset linkage",
+  "grain": "One fixed hypothetical pump fleet/system per calendar month",
+  "assumptions": "Complete removal capture, independent Poisson events, known flight hours except September; no installed-position multiplier is applied.",
+  "months": [
+    {"month": "2025-01", "removals": 1, "flight_hours": 2000},
+    {"month": "2025-02", "removals": 0, "flight_hours": 1950},
+    {"month": "2025-03", "removals": 2, "flight_hours": 2100},
+    {"month": "2025-04", "removals": 1, "flight_hours": 2050},
+    {"month": "2025-05", "removals": 0, "flight_hours": 2000},
+    {"month": "2025-06", "removals": 2, "flight_hours": 2200},
+    {"month": "2025-07", "removals": 3, "flight_hours": 2150},
+    {"month": "2025-08", "removals": 9, "flight_hours": 2100},
+    {"month": "2025-09", "removals": 2, "flight_hours": null}
+  ]
+}

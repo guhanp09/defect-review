@@ -1,0 +1,347 @@
+{
+  "as_of": "2026-11-21",
+  "public_source": {
+    "source": "FAA annual SDR export",
+    "url": "https://external.apic4e.faa.gov/sdrs/retrieve/SDR-2025.csv",
+    "retrieved_at_utc": "2026-11-21T13:56:27.020362+00:00",
+    "sha256": "18a846e53f792717a098bcb3539e37b4bef4381f8491eab1674adf02382d0059",
+    "bytes": 33187598,
+    "content_type": "text/csv",
+    "selected_rows": 67653,
+    "fact_file": "faa_2025_facts.csv.gz",
+    "fact_sha256": "b680b6e0fb23d1fa8540a3a6fef8658ad4d7ac4436597aa1400592961a6f9dde",
+    "extract_version": 1,
+    "excluded_fields": "Narratives, submitter/operator identifiers, serials and registry text",
+    "aircraft_key": "First 24 hex characters of SHA256('FAA-registry:' + normalized registry). Public linkage, not anonymization.",
+    "year_basis": "Observed: all selected DifficultyDate values are in 2025; submissions include 2026. The downloaded filename is not used to infer submission year."
+  },
+  "summary": {
+    "reports": 67649,
+    "submitted_in_2026": 2487,
+    "make_model_pairs": 519,
+    "missing_aircraft_key": 328,
+    "jasc_values": 436,
+    "first_occurrence": "2025-01-01",
+    "last_occurrence": "2025-12-31",
+    "repeat_candidate_reports": 28864,
+    "same_day_candidates": 18866
+  },
+  "quality": {
+    "occurrence_after_submission": 4,
+    "exact_duplicate_rows": 0,
+    "ata_grouping_requires_review": 112,
+    "accepted_reports": 67649
+  },
+  "top_systems": [
+    {
+      "jasc": "5320",
+      "jasc_title": "FUSELAGE MISCELLANEOUS STRUCTURE",
+      "ata_chapter": "53",
+      "reports": 8540
+    },
+    {
+      "jasc": "3350",
+      "jasc_title": "EMERGENCY LIGHTING",
+      "ata_chapter": "33",
+      "reports": 7824
+    },
+    {
+      "jasc": "2560",
+      "jasc_title": "EMERGENCY EQUIPMENT",
+      "ata_chapter": "25",
+      "reports": 3264
+    },
+    {
+      "jasc": "5210",
+      "jasc_title": "PASSENGER/CREW DOORS",
+      "ata_chapter": "52",
+      "reports": 3095
+    },
+    {
+      "jasc": "5347",
+      "jasc_title": "SEAT/CARGO ATTACH FITTINGS",
+      "ata_chapter": "53",
+      "reports": 2937
+    },
+    {
+      "jasc": "5310",
+      "jasc_title": "FUSELAGE MAIN, STRUCTURE",
+      "ata_chapter": "53",
+      "reports": 2786
+    },
+    {
+      "jasc": "5330",
+      "jasc_title": "FUSELAGE MAIN, PLATE/SKIN",
+      "ata_chapter": "53",
+      "reports": 2207
+    },
+    {
+      "jasc": "5321",
+      "jasc_title": "FUSELAGE FLOOR PANEL",
+      "ata_chapter": "53",
+      "reports": 2096
+    },
+    {
+      "jasc": "5315",
+      "jasc_title": "FUSELAGE MAIN, FLOOR BEAM",
+      "ata_chapter": "53",
+      "reports": 1554
+    },
+    {
+      "jasc": "5313",
+      "jasc_title": "FUSELAGE MAIN, LONGERON/STRINGER",
+      "ata_chapter": "53",
+      "reports": 1503
+    },
+    {
+      "jasc": "5311",
+      "jasc_title": "FUSELAGE MAIN, FRAME",
+      "ata_chapter": "53",
+      "reports": 1487
+    },
+    {
+      "jasc": "2565",
+      "jasc_title": "ESCAPE SLIDE",
+      "ata_chapter": "25",
+      "reports": 1448
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2025-01",
+      "reports": 5877,
+      "linked_aircraft": 2071,
+      "later_year_submissions": 7
+    },
+    {
+      "month": "2025-02",
+      "reports": 4978,
+      "linked_aircraft": 1923,
+      "later_year_submissions": 14
+    },
+    {
+      "month": "2025-03",
+      "reports": 6518,
+      "linked_aircraft": 2150,
+      "later_year_submissions": 12
+    },
+    {
+      "month": "2025-04",
+      "reports": 6085,
+      "linked_aircraft": 2091,
+      "later_year_submissions": 22
+    },
+    {
+      "month": "2025-05",
+      "reports": 5596,
+      "linked_aircraft": 2033,
+      "later_year_submissions": 10
+    },
+    {
+      "month": "2025-06",
+      "reports": 5471,
+      "linked_aircraft": 2086,
+      "later_year_submissions": 61
+    },
+    {
+      "month": "2025-07",
+      "reports": 5856,
+      "linked_aircraft": 1993,
+      "later_year_submissions": 47
+    },
+    {
+      "month": "2025-08",
+      "reports": 6043,
+      "linked_aircraft": 2206,
+      "later_year_submissions": 105
+    },
+    {
+      "month": "2025-09",
+      "reports": 5610,
+      "linked_aircraft": 2006,
+      "later_year_submissions": 120
+    },
+    {
+      "month": "2025-10",
+      "reports": 5999,
+      "linked_aircraft": 2178,
+      "later_year_submissions": 199
+    },
+    {
+      "month": "2025-11",
+      "reports": 4924,
+      "linked_aircraft": 1866,
+      "later_year_submissions": 527
+    },
+    {
+      "month": "2025-12",
+      "reports": 4692,
+      "linked_aircraft": 1850,
+      "later_year_submissions": 1363
+    }
+  ],
+  "synthetic_exposure": {
+    "provenance": "Entirely synthetic; no airline or public SDR asset linkage",
+    "grain": "One fixed hypothetical pump fleet/system per calendar month",
+    "assumptions": "Complete removal capture, independent Poisson events, known flight hours except September; no installed-position multiplier is applied.",
+    "months": [
+      {
+        "month": "2025-01",
+        "removals": 1,
+        "flight_hours": 2000
+      },
+      {
+        "month": "2025-02",
+        "removals": 0,
+        "flight_hours": 1950
+      },
+      {
+        "month": "2025-03",
+        "removals": 2,
+        "flight_hours": 2100
+      },
+      {
+        "month": "2025-04",
+        "removals": 1,
+        "flight_hours": 2050
+      },
+      {
+        "month": "2025-05",
+        "removals": 0,
+        "flight_hours": 2000
+      },
+      {
+        "month": "2025-06",
+        "removals": 2,
+        "flight_hours": 2200
+      },
+      {
+        "month": "2025-07",
+        "removals": 3,
+        "flight_hours": 2150
+      },
+      {
+        "month": "2025-08",
+        "removals": 9,
+        "flight_hours": 2100
+      },
+      {
+        "month": "2025-09",
+        "removals": 2,
+        "flight_hours": null
+      }
+    ],
+    "results": [
+      {
+        "month": "2025-01",
+        "removals": 1,
+        "flight_hours": 2000,
+        "rate": 0.5,
+        "lower": 0.012658904,
+        "upper": 2.785821695,
+        "status": "synthetic exposure demonstration",
+        "screen": "baseline",
+        "mtbur_hours": 2000.0,
+        "baseline_per_1000h": 0.4878048780487805
+      },
+      {
+        "month": "2025-02",
+        "removals": 0,
+        "flight_hours": 1950,
+        "rate": 0.0,
+        "lower": 0.0,
+        "upper": 1.891733053,
+        "status": "synthetic exposure demonstration",
+        "screen": "baseline",
+        "mtbur_hours": null,
+        "baseline_per_1000h": 0.4878048780487805
+      },
+      {
+        "month": "2025-03",
+        "removals": 2,
+        "flight_hours": 2100,
+        "rate": 0.9523809523809523,
+        "lower": 0.115337752,
+        "upper": 3.440327461,
+        "status": "synthetic exposure demonstration",
+        "screen": "baseline",
+        "mtbur_hours": 1050.0,
+        "baseline_per_1000h": 0.4878048780487805
+      },
+      {
+        "month": "2025-04",
+        "removals": 1,
+        "flight_hours": 2050,
+        "rate": 0.4878048780487805,
+        "lower": 0.01235015,
+        "upper": 2.717874825,
+        "status": "synthetic exposure demonstration",
+        "screen": "baseline",
+        "mtbur_hours": 2050.0,
+        "baseline_per_1000h": 0.4878048780487805
+      },
+      {
+        "month": "2025-05",
+        "removals": 0,
+        "flight_hours": 2000,
+        "rate": 0.0,
+        "lower": 0.0,
+        "upper": 1.844439727,
+        "status": "synthetic exposure demonstration",
+        "screen": "baseline",
+        "mtbur_hours": null,
+        "baseline_per_1000h": 0.4878048780487805
+      },
+      {
+        "month": "2025-06",
+        "removals": 2,
+        "flight_hours": 2200,
+        "rate": 0.9090909090909091,
+        "lower": 0.110095127,
+        "upper": 3.28394894,
+        "status": "synthetic exposure demonstration",
+        "screen": "baseline",
+        "mtbur_hours": 1100.0,
+        "baseline_per_1000h": 0.4878048780487805
+      },
+      {
+        "month": "2025-07",
+        "removals": 3,
+        "flight_hours": 2150,
+        "rate": 1.3953488372093024,
+        "lower": 0.287754476,
+        "upper": 4.077801428,
+        "status": "synthetic exposure demonstration",
+        "screen": "monitor",
+        "mtbur_hours": 716.6666666666666,
+        "baseline_per_1000h": 0.4878048780487805
+      },
+      {
+        "month": "2025-08",
+        "removals": 9,
+        "flight_hours": 2100,
+        "rate": 4.285714285714286,
+        "lower": 1.959701475,
+        "upper": 8.135620691,
+        "status": "synthetic exposure demonstration",
+        "screen": "investigate",
+        "mtbur_hours": 233.33333333333334,
+        "baseline_per_1000h": 0.4878048780487805
+      },
+      {
+        "month": "2025-09",
+        "removals": 2,
+        "flight_hours": null,
+        "rate": null,
+        "lower": null,
+        "upper": null,
+        "status": "missing exposure",
+        "screen": "insufficient exposure",
+        "mtbur_hours": null,
+        "baseline_per_1000h": 0.4878048780487805
+      }
+    ]
+  },
+  "public_failure_rates": null,
+  "rate_reason": "No fleet-level flight-hour/cycle exposure or reporting coverage supplied."
+}

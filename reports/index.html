@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>DefectReview | Engineering review</title>
+<style>body{font:16px/1.55 system-ui,sans-serif;color:#20313c;background:#f4f6f7;margin:0}
+main{max-width:1140px;margin:auto;padding:32px 22px}h1{font-size:2.5rem;margin:.2em 0}
+h2{margin-top:2em}a{color:#065b82}.kpis{display:flex;gap:16px;flex-wrap:wrap}
+.card{background:white;border:1px solid #bdcbd1;padding:16px;flex:1;min-width:180px}
+.card strong{display:block;font-size:2rem}.note{border-left:4px solid #ad6619;padding:12px;background:#fff7e8}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;background:white;font-size:.9rem}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid #c4d1d7}th{background:#e3edf1}
+code{overflow-wrap:anywhere}footer{margin-top:3rem;border-top:1px solid #bdcbd1;padding-top:16px}</style>
+<main><header><p>FAA public reports · frozen source snapshot · review cutoff 2026-11-21</p>
+<h1>DefectReview</h1><p>Aircraft service-difficulty reports, with the counting rules exposed.</p>
+<a href="https://github.com/guhanp09/defect-review">Source, SQL and reproduction</a></header>
+<div class="kpis"><div class="card"><strong>67,649</strong>Accepted public reports</div>
+<div class="card"><strong>2,487</strong>2025 occurrences submitted in 2026 (UTC)</div>
+<div class="card"><strong>28,864</strong>30-day same-aircraft/JASC candidates</div></div>
+<p class="note">These are report counts, not fleet failure rates. Public reporting coverage and fleet exposure
+are unavailable. A repeat candidate does not establish the same component, a recurring physical defect or root cause.
+18,866 candidates are same-day reports and may describe separate findings.</p>
+<h2>Occurrence and reporting time</h2><div class='scroll'><table><thead><tr><th scope='col'>Occurrence month</th><th scope='col'>Reports</th><th scope='col'>Distinct linked aircraft</th><th scope='col'>Submitted in a later year</th></tr></thead><tbody><tr><td>2025-01</td><td>5877</td><td>2071</td><td>7</td></tr><tr><td>2025-02</td><td>4978</td><td>1923</td><td>14</td></tr><tr><td>2025-03</td><td>6518</td><td>2150</td><td>12</td></tr><tr><td>2025-04</td><td>6085</td><td>2091</td><td>22</td></tr><tr><td>2025-05</td><td>5596</td><td>2033</td><td>10</td></tr><tr><td>2025-06</td><td>5471</td><td>2086</td><td>61</td></tr><tr><td>2025-07</td><td>5856</td><td>1993</td><td>47</td></tr><tr><td>2025-08</td><td>6043</td><td>2206</td><td>105</td></tr><tr><td>2025-09</td><td>5610</td><td>2006</td><td>120</td></tr><tr><td>2025-10</td><td>5999</td><td>2178</td><td>199</td></tr><tr><td>2025-11</td><td>4924</td><td>1866</td><td>527</td></tr><tr><td>2025-12</td><td>4692</td><td>1850</td><td>1363</td></tr></tbody></table></div>
+<p>Cutoff applies to submission date in UTC. The filename does not determine submission year.
+This extract's occurrence dates run from 2025-01-01 to 2025-12-31.</p>
+<h2>System review queue</h2><div class='scroll'><table><thead><tr><th scope='col'>JASC</th><th scope='col'>FAA JASC title</th><th scope='col'>ATA chapter grouping*</th><th scope='col'>Reports</th></tr></thead><tbody><tr><td>5320</td><td>FUSELAGE MISCELLANEOUS STRUCTURE</td><td>53</td><td>8540</td></tr><tr><td>3350</td><td>EMERGENCY LIGHTING</td><td>33</td><td>7824</td></tr><tr><td>2560</td><td>EMERGENCY EQUIPMENT</td><td>25</td><td>3264</td></tr><tr><td>5210</td><td>PASSENGER/CREW DOORS</td><td>52</td><td>3095</td></tr><tr><td>5347</td><td>SEAT/CARGO ATTACH FITTINGS</td><td>53</td><td>2937</td></tr><tr><td>5310</td><td>FUSELAGE MAIN, STRUCTURE</td><td>53</td><td>2786</td></tr><tr><td>5330</td><td>FUSELAGE MAIN, PLATE/SKIN</td><td>53</td><td>2207</td></tr><tr><td>5321</td><td>FUSELAGE FLOOR PANEL</td><td>53</td><td>2096</td></tr><tr><td>5315</td><td>FUSELAGE MAIN, FLOOR BEAM</td><td>53</td><td>1554</td></tr><tr><td>5313</td><td>FUSELAGE MAIN, LONGERON/STRINGER</td><td>53</td><td>1503</td></tr><tr><td>5311</td><td>FUSELAGE MAIN, FRAME</td><td>53</td><td>1487</td></tr><tr><td>2565</td><td>ESCAPE SLIDE</td><td>25</td><td>1448</td></tr></tbody></table></div>
+<p>*Chapter grouping is a limited crosswalk. JASC is a modified ATA taxonomy, not an interchangeable
+manufacturer code. Stall-warning code 3418 and unmapped chapters remain for review.</p>
+<p>Counts rank reporting workload, not risk or system reliability. Obtain fleet hours/cycles, operating context,
+removal history, current approved documentation and maintenance findings before corrective-action decisions.</p>
+<p><a href="system_drilldown.csv">All system/model groups</a> ·
+<a href="component_drilldown.csv">Part/condition counts</a> ·
+<a href="repeat_candidates.csv">Traceable repeat-candidate pairs</a> ·
+<a href="monthly_reports.csv">Monthly counts</a></p>
+<h2>Separate synthetic fleet: exposure and removals</h2>
+<p>Illustrative pump fleet, invented monthly removals and flight hours. No public FAA aircraft are joined
+to these assumptions. Six baseline months are fixed before later-month screening.</p><div class='scroll'><table><thead><tr><th scope='col'>Synthetic month</th><th scope='col'>Unscheduled removals</th><th scope='col'>Assumed flight hours</th><th scope='col'>/1,000 h</th><th scope='col'>95% lower</th><th scope='col'>95% upper</th><th scope='col'>MTBUR h</th><th scope='col'>Screen</th></tr></thead><tbody><tr><td>2025-01</td><td>1</td><td>2000</td><td>0.500</td><td>0.013</td><td>2.786</td><td>2000.000</td><td>baseline</td></tr><tr><td>2025-02</td><td>0</td><td>1950</td><td>0.000</td><td>0.000</td><td>1.892</td><td>—</td><td>baseline</td></tr><tr><td>2025-03</td><td>2</td><td>2100</td><td>0.952</td><td>0.115</td><td>3.440</td><td>1050.000</td><td>baseline</td></tr><tr><td>2025-04</td><td>1</td><td>2050</td><td>0.488</td><td>0.012</td><td>2.718</td><td>2050.000</td><td>baseline</td></tr><tr><td>2025-05</td><td>0</td><td>2000</td><td>0.000</td><td>0.000</td><td>1.844</td><td>—</td><td>baseline</td></tr><tr><td>2025-06</td><td>2</td><td>2200</td><td>0.909</td><td>0.110</td><td>3.284</td><td>1100.000</td><td>baseline</td></tr><tr><td>2025-07</td><td>3</td><td>2150</td><td>1.395</td><td>0.288</td><td>4.078</td><td>716.667</td><td>monitor</td></tr><tr><td>2025-08</td><td>9</td><td>2100</td><td>4.286</td><td>1.960</td><td>8.136</td><td>233.333</td><td>investigate</td></tr><tr><td>2025-09</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>insufficient exposure</td></tr></tbody></table></div>
+<p>Exact two-sided Garwood intervals assume Poisson counts and known exposure. Zero removals have a positive
+upper bound; MTBUR is undefined at zero removals. September's missing hours block a rate.
+The screen compares an interval to a baseline point estimate, without repeated-look or baseline-uncertainty
+adjustment. It is a review aid, not an approved alert limit or maintenance-program change.</p>
+<a href="synthetic_rates.csv">Synthetic rate calculations</a>
+<h2>Engineering handoff</h2><ol><li>Reconcile linked reports with source maintenance records; confirm component identity and ATA coding.</li>
+<li>Collect exposure, configuration, repair history and part findings before assigning a failure mode.</li>
+<li>Write an investigation scope with owner, evidence needed, due date and review authority. Changes require the operator's applicable approvals.</li></ol>
+<details><summary>Data quality and source integrity</summary><pre>{
+  &quot;occurrence_after_submission&quot;: 4,
+  &quot;exact_duplicate_rows&quot;: 0,
+  &quot;ata_grouping_requires_review&quot;: 112,
+  &quot;accepted_reports&quot;: 67649
+}</pre>
+<p><a href="quarantine.csv">Quarantined rows and reasons</a>. Raw-source SHA256: <code>18a846e53f792717a098bcb3539e37b4bef4381f8491eab1674adf02382d0059</code>. Exact duplicates collapse;
+conflicting report identities are quarantined. Registry text is replaced by a stable linkage key;
+this is not an anonymization claim. Narratives and submitter identities are excluded.</p></details>
+<footer><a href="https://www.faa.gov/av-info/download_SDR">FAA annual SDR source</a> ·
+<a href="https://www.faa.gov/sites/faa.gov/files/JASC_Code.pdf">FAA JASC table</a> ·
+<a href="review.json">Machine-readable review</a><p>Independent analysis. No airline affiliation,
+maintenance instruction, airworthiness determination or approval.</p></footer></main></html>

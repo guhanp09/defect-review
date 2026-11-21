@@ -1,0 +1,5 @@
+duckdb==2.0.0
+scipy==1.18.1
+numpy==2.5.5
+pytest==9.2.0
+ruff==0.17.6
