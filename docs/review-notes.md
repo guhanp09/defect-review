@@ -31,8 +31,9 @@ an observation, not a complete failure mechanism.
 | An absent month could be interpreted as zero events | Require consecutive explicit month rows in the exposure example |
 | Zero events could look certain; unknown exposure could look healthy | Positive zero-event upper bound; undefined missing/zero-exposure rate; invalid event/exposure combinations fail |
 | Platform math could create meaningless output diffs | Pin numerical dependencies and round interval exports to nine decimals; display three |
+| Clean-machine build reordered equal-count component rows | Include condition as the final SQL ordering key; retain the strict artifact-parity CI gate |
 
-Twenty-one tests cover independent rate values, date/timezone errors, conflicting
+Twenty-two tests cover independent rate values, date/timezone errors, conflicting
 identities, cutoff-before-deduplication, SQL grain and 0/30/31-day boundaries.
 Artifact checks reconcile accepted counts, exports, hashes and the rendered review.
 

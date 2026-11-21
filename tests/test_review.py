@@ -152,3 +152,12 @@ def test_quarantine_is_traceable_to_source_identity():
     normalize([report("BAD-DATE", occurrence="03/01/2025")], CATALOG, date(2026, 1, 1), audit=audit)
     assert audit[0]["report_id"] == "BAD-DATE"
     assert audit[0]["reason"] == "occurrence_after_submission"
+
+
+def test_equal_count_component_conditions_have_canonical_export_order():
+    raw = [report("A", part_condition="WORN"), report("B", part_condition="LEAK")]
+    accepted, _ = normalize(raw, CATALOG, date(2026, 1, 1))
+    for ordered in [accepted, list(reversed(accepted))]:
+        connection = warehouse(ordered)
+        rows = records(connection, "SELECT * FROM component_drilldown")
+        assert [row["part_condition"] for row in rows] == ["LEAK", "WORN"]

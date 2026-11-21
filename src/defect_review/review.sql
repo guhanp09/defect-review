@@ -14,7 +14,8 @@ FROM accepted GROUP BY 1,2,3,4,5 ORDER BY reports DESC, jasc, make, model;
 
 CREATE VIEW component_drilldown AS
 SELECT jasc, part_name, part_number, part_condition, count(*) AS reports
-FROM accepted GROUP BY 1,2,3,4 ORDER BY reports DESC, jasc, part_name, part_number;
+FROM accepted GROUP BY 1,2,3,4
+ORDER BY reports DESC, jasc, part_name, part_number, part_condition;
 
 CREATE VIEW repeat_candidates AS
 WITH preceding AS (
