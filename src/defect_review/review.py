@@ -126,6 +126,7 @@ def write_csv(path, rows):
 
 
 def table(rows, columns):
+    region = escape(" / ".join(label for _, label in columns[:2]), quote=True)
     head = "".join("<th scope='col'>" + escape(label) + "</th>" for _, label in columns)
     body = []
     for row in rows:
@@ -137,7 +138,7 @@ def table(rows, columns):
             values.append("<td>" + escape("—" if value is None else str(value)) + "</td>")
         body.append("<tr>" + "".join(values) + "</tr>")
     return (
-        "<div class='scroll'><table><thead><tr>"
+        f"<div class='scroll' role='region' aria-label='{region}' tabindex='0'><table><thead><tr>"
         + head
         + "</tr></thead><tbody>"
         + "".join(body)
